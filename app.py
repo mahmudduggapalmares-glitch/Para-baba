@@ -70,12 +70,6 @@ elif juego == "Mensaje Estelar":
         import random
         st.info(random.choice(frases))
 
-# 4. Galería "Espacial"
-st.write("---")
-st.write("### 📸 Momentos en nuestra galaxia")
-# Aquí puedes añadir fotos usando st.image("nombre_de_tu_foto.jpg")
-st.write("(Aquí puedes subir fotos de tus momentos favoritos con él)")
-
 # Pie de página
 st.markdown("---")
 st.write("✨ *Creado con mucho amor para el hombre más importante.*")
